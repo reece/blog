@@ -79,23 +79,35 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
   url = "https://github.com/reece"
 [[menu.links]]
-  weight = 2
+  weight = 1
   identifier = "stackoverflow"
   name = "Stack Overflow"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
   url = "https://stackoverflow.com/users/342839/reece"
 [[menu.links]]
-  weight = 3
+  weight = 1
   identifier = "twitter"
   name = "Twitter"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
   url = "https://twitter.com/reecehart"
 [[menu.links]]
-  weight = 4
+  weight = 1
   identifier = "facebook"
   name = "Facebook"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-facebook\"></i>"
   url = "https://www.facebook.com/reece.k.hart"
+[[menu.links]]
+  weight = 1
+  identifier = "linkedin"
+  name = "LinkedIn"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\"></i>"
+  url = "https://www.linkedin.com/in/reece"
+[[menu.links]]
+  weight = 1
+  identifier = "bitbucket"
+  name = "BitBucket"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bitbucket\"></i>"
+  url = "https://bitbucket.org/reece"
 
 [[menu.misc]]
   weight = 0
