@@ -7,7 +7,8 @@ tags:
 - tag
 keywords:
 - key
-thumbnailImage: //example.com/image.jpg
+thumbnailImagePosition: left
+thumbnailImage: 
 ---
 
 <!--more-->
