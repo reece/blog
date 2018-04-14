@@ -57,7 +57,7 @@ canonifyurls = true
   weight = -1
   identifier = "calendar"
   name = "Calendar"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-calendar\"></i>"
   url = "/page/calendar"
 [[menu.main]]
   weight = 1
