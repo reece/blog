@@ -2,11 +2,8 @@
 title: A Roundup of Investigations into Direct-to-Consumer Genetic Testing
 date: 2010-07-24
 categories:
-- cat
 tags:
-- dtc
 keywords:
-- key
 thumbnailImagePosition: left
 thumbnailImage: images/fda.gif
 ---

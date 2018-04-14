@@ -20,11 +20,11 @@ title = "Reece Hart"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "reecehart"
 # googleAnalytics = "UA-123-45"
-paginate = 7
+paginate = 5
 canonifyurls = true
 
 [permalinks]
-  post = "/:year/:month/:slug/"
+  post = "/:year/:month/:day/:slug/"
 
 [taxonomies]
   tag = "tags"
@@ -53,6 +53,12 @@ canonifyurls = true
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
   url = "/#about"
+[[menu.main]]
+  weight = -1
+  identifier = "calendar"
+  name = "Calendar"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+  url = "/page/calendar"
 [[menu.main]]
   weight = 1
   identifier = "categories"
