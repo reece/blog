@@ -1,0 +1,49 @@
+mkdir -p a/{1,2}
+date >a/1/f1
+ln a/1/f1 a/2/
+date >a/2/f2
+mkdir b
+cp -a a/1 b/
+
+tree --inodes a b
+a
+├── [40960294]  1
+│   └── [40928184]  f1
+└── [40960295]  2
+    ├── [40928184]  f1
+    └── [40928186]  f2
+b
+└── [40960297]  1
+    └── [40928187]  f1
+
+
+cd a
+rsync -Hav --size-only --link-dest=../1 2/ ../b/2
+sending incremental file list
+created directory ../b/2
+f2
+
+sent 160 bytes  received 64 bytes  448.00 bytes/sec
+total size is 58  speedup is 0.26
+
+
+cd ..
+tree --inodes a b
+a
+├── [40943913]  1
+│   └── [40923916]  f1
+└── [40952107]  2
+    ├── [40923916]  f1
+    └── [40928125]  f2
+b
+├── [40952109]  1
+│   └── [40928129]  f1
+└── [40960292]  2
+    ├── [40928129]  f1   <-- this is what we wanted to achieve
+    └── [40928134]  f2
+
+
+Keys:
+- don't use -R
+- with / after source dir (2/), grabs files *within*
+- ../1 is relative to destination (../b/2/../1 => ../b/1)

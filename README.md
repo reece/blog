@@ -18,3 +18,6 @@ hg add config.toml
 $ mkdir themes
 $ cd themes
 $ git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git
+
+
+for f in *.rst; do pandoc -f rst -t markdown $f -o ${f%.rst}.md; git rm $f; done

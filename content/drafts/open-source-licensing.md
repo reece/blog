@@ -1,25 +1,10 @@
-Open Source Licensing
-=====================
-
-date
-
-:   2011-08-13 05:11
-
-author
-
-:   reece
-
-category
-
-:   Uncategorized
-
-slug
-
-:   122
-
-status
-
-:   draft
+---
+title: Open Source Licensing
+date: 2011-08-13
+categories:
+tags:
+keywords:
+---
 
 | What I want:
 | - contributions
