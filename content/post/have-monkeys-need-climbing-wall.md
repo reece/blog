@@ -1,10 +1,10 @@
 ---
 title: Have Monkeys, Need Climbing Wall
 date: 2010-01-27
-categories:
-tags:
+categories: 
+tags: 
 thumbnailImagePosition: left
-thumbnailImage: http://www.harts.net/reece/wp-content/uploads/2009/11/blue-hold-141x150.jpg
+thumbnailImage: images/blue-hold.jpg
 ---
 
 I have three kids. All of them like to climb. Margot seems unnaturally
