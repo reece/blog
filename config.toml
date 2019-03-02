@@ -18,6 +18,8 @@ languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "Reece Hart"
 theme = "hugo-tranquilpeak-theme"
+# other themes: academic, mainroad, pristine, hugo icon, 
+# forty -- nice for Sparkle?
 disqusShortname = "reecehart"
 # googleAnalytics = "UA-123-45"
 paginate = 5
